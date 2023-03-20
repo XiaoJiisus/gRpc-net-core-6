@@ -1,0 +1,15 @@
+C:\VS2022 Projects\BeginningGRPC\Chapter1\bin\Debug\net6.0\Chapter1.exe
+C:\VS2022 Projects\BeginningGRPC\Chapter1\bin\Debug\net6.0\Chapter1.deps.json
+C:\VS2022 Projects\BeginningGRPC\Chapter1\bin\Debug\net6.0\Chapter1.runtimeconfig.json
+C:\VS2022 Projects\BeginningGRPC\Chapter1\bin\Debug\net6.0\Chapter1.dll
+C:\VS2022 Projects\BeginningGRPC\Chapter1\bin\Debug\net6.0\Chapter1.pdb
+C:\VS2022 Projects\BeginningGRPC\Chapter1\obj\Debug\net6.0\Chapter1.csproj.AssemblyReference.cache
+C:\VS2022 Projects\BeginningGRPC\Chapter1\obj\Debug\net6.0\Chapter1.GeneratedMSBuildEditorConfig.editorconfig
+C:\VS2022 Projects\BeginningGRPC\Chapter1\obj\Debug\net6.0\Chapter1.AssemblyInfoInputs.cache
+C:\VS2022 Projects\BeginningGRPC\Chapter1\obj\Debug\net6.0\Chapter1.AssemblyInfo.cs
+C:\VS2022 Projects\BeginningGRPC\Chapter1\obj\Debug\net6.0\Chapter1.csproj.CoreCompileInputs.cache
+C:\VS2022 Projects\BeginningGRPC\Chapter1\obj\Debug\net6.0\Chapter1.dll
+C:\VS2022 Projects\BeginningGRPC\Chapter1\obj\Debug\net6.0\refint\Chapter1.dll
+C:\VS2022 Projects\BeginningGRPC\Chapter1\obj\Debug\net6.0\Chapter1.pdb
+C:\VS2022 Projects\BeginningGRPC\Chapter1\obj\Debug\net6.0\Chapter1.genruntimeconfig.cache
+C:\VS2022 Projects\BeginningGRPC\Chapter1\obj\Debug\net6.0\ref\Chapter1.dll
