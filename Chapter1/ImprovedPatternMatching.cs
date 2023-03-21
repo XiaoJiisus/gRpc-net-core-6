@@ -1,10 +1,10 @@
 namespace Chapter1.ImprovedPatternMatching
 {
-    #region TaxSelector
+    #region Improved_Pattern_Matching
 
-    public class TaxSelector
+    public class Improved_Pattern_Matching
     {
-        public TaxSelector() { }
+        public Improved_Pattern_Matching() { }
 
         public int MainProgramTXSelector()
         {
@@ -30,7 +30,7 @@ namespace Chapter1.ImprovedPatternMatching
 
     #endregion
 
-    #region DiscountSelector
+    #region Not_pattern
 
     public class ElectronicProduct : Product
     {
@@ -44,8 +44,8 @@ namespace Chapter1.ImprovedPatternMatching
         public void MainProgram()
         {
             var product = new Product() { Name = "Food", CategoryId = 4 };
-            Console.WriteLine($"GetDiscount -> {GetDiscount(product)}");
-            Console.WriteLine($"GetDiscountTernary -> {GetDiscountTernary(product)}");
+            Console.WriteLine($"Improved not pattern matching GetDiscount -> {GetDiscount(product)}");
+            Console.WriteLine($"Improved not pattern matching GetDiscountTernary -> {GetDiscountTernary(product)}");
         }
 
         private int GetDiscount(Product p)

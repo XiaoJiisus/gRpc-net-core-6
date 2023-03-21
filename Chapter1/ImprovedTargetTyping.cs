@@ -2,7 +2,7 @@ namespace Chapter1.ImprovedTargetTyping
 {
     public class ProgramImprovedTargetTyping
     {
-        public void MainProgram()
+        public void MainProgramUrl()
         {
             Product product = new("Videogame", 1);
             var isTrue = false;
@@ -14,7 +14,7 @@ namespace Chapter1.ImprovedTargetTyping
             // var anotherProduct2 = new ("VideoGame", 1);
         }
 
-        public void MainProgram1()
+        public void MainProgramBook()
         {
             Book aBook = new ("gRCP", 1);
             Headset headset = new ("Logitech", 2);

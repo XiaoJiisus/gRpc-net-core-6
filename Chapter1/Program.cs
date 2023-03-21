@@ -27,26 +27,48 @@ var newRecordProduct = recordProduct with { CategoryId = 2};
 Console.WriteLine($"Record -> {System.Text.Json.JsonSerializer.Serialize(recordProduct)}");
 Console.WriteLine($"New record from another -> {System.Text.Json.JsonSerializer.Serialize(newRecordProduct)}");
 
-Console.WriteLine($"record is equal to new record product from with keyworkd -> {recordProduct.Equals(newRecordProduct)}");
+Console.WriteLine($"Is record equal to new record product from with keyworkd? -> {recordProduct.Equals(newRecordProduct)}");
 
 var anotherProduct = new Product_Record_Ctor( Name: "VideoGame", CategoryId: 1);
-Console.WriteLine($"record is equal to another keyworkd -> {recordProduct.Equals(anotherProduct)}");
+Console.WriteLine($"Is record equal to another object from same ctor? -> {recordProduct.Equals(anotherProduct)}");
 
 Console.WriteLine($"                                       ");
 Console.WriteLine($"                                       ");
 Console.WriteLine($"***************************************");
 Console.WriteLine($"*      Improved Pattern Matching      *");
 Console.WriteLine($"***************************************");
-// var testTXSelector = new TaxSelector();
-// Console.WriteLine($"Tax selector -> {testTXSelector.MainProgramTXSelector()}");
 
-// var discountSelector = new DiscountSelector();
-// discountSelector.MainProgram();
+var testTXSelector = new Improved_Pattern_Matching();
+Console.WriteLine($"Improved Pattern Matching with using tax selector -> {testTXSelector.MainProgramTXSelector()}");
+
+var discountSelector = new DiscountSelector();
+discountSelector.MainProgram();
+
+Console.WriteLine($"                                       ");
+Console.WriteLine($"                                       ");
+Console.WriteLine($"***************************************");
+Console.WriteLine($"*       Improved Target Typing        *");
+Console.WriteLine($"***************************************");
+
+var improvedTargetObj = new ProgramImprovedTargetTyping();
+improvedTargetObj.MainProgramBook();
+
+Console.WriteLine($"                                       ");
+Console.WriteLine($"                                       ");
+Console.WriteLine($"***************************************");
+Console.WriteLine($"*         Covariant  returns          *");
+Console.WriteLine($"***************************************");
+
+// var covariantObj = new Book();
+
+Console.WriteLine($"                                       ");
+Console.WriteLine($"                                       ");
+Console.WriteLine($"***************************************");
+Console.WriteLine($"*     Static anonymus functions       *");
+Console.WriteLine($"***************************************");
 
 var allocationMemory = new UnintendedMemoryAllocation();
 allocationMemory.Main();
-
-Console.WriteLine("------------------------------------------");
 
 var allocationMemoryFix = new UnintendedMemoryAllocationFix();
 allocationMemoryFix.Main();
