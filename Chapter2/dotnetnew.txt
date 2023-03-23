@@ -1,6 +1,7 @@
 *****   API   *****
 dotnet new webapi --framework net6.0 -o Api -n WebAPIDemo
 dotnet --list-sdks
+cd WebAPIDemo
 dotnet new globaljson --sdk-version 6.0.406
 
 --test RestMethod with pwsh
@@ -9,4 +10,11 @@ Invoke-RestMethod https://localhost:7267/WeatherForecast -Method Get
 
 *****   MVC   *****
 dotnet new mvc --framework net6.0 -o Mvc -n MvcDemo
+cd MvcDemo
+dotnet new globaljson --sdk-version 6.0.406
+
+
+*****   Razor pages   *****
+dotnet new razor --framework net6.0 -o Razor -n RazorDemo
+cd Razor
 dotnet new globaljson --sdk-version 6.0.406
