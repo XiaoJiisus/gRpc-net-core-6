@@ -18,3 +18,8 @@ dotnet new globaljson --sdk-version 6.0.406
 dotnet new razor --framework net6.0 -o Razor -n RazorDemo
 cd Razor
 dotnet new globaljson --sdk-version 6.0.406
+
+*****   Blazor app   *****
+dotnet new blazorwasm --framework net6.0 -o Blazor -n BlazorWasmDemo
+cd Blazor
+dotnet new globaljson --sdk-version 6.0.406
