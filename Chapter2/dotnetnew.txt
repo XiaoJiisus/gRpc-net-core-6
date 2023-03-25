@@ -19,7 +19,14 @@ dotnet new razor --framework net6.0 -o Razor -n RazorDemo
 cd Razor
 dotnet new globaljson --sdk-version 6.0.406
 
+
 *****   Blazor app   *****
 dotnet new blazorwasm --framework net6.0 -o Blazor -n BlazorWasmDemo
 cd Blazor
+dotnet new globaljson --sdk-version 6.0.406
+
+
+*****   SignalR   *****
+dotnet new web --framework net6.0 -o SignalR -n SignalRDemo
+cd SignalR
 dotnet new globaljson --sdk-version 6.0.406
