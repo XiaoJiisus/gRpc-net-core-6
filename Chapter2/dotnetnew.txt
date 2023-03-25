@@ -30,3 +30,10 @@ dotnet new globaljson --sdk-version 6.0.406
 dotnet new web --framework net6.0 -o SignalR -n SignalRDemo
 cd SignalR
 dotnet new globaljson --sdk-version 6.0.406
+
+
+*****   Minimalistic API   *****
+dotnet new web --framework net6.0 -o MinimalisticApi -n MinimalisticAPIDemo
+cd SignalR
+dotnet new globaljson --sdk-version 6.0.406
+dotnet add package Swashbuckle.AspNetCore
